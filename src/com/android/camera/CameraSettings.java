@@ -877,11 +877,13 @@ public class CameraSettings {
               supported.add(Integer.toString(CamcorderProfile.QUALITY_4kDCI));
            }
         }
+/*
         if (CamcorderProfile.hasProfile(cameraId, CamcorderProfile.QUALITY_4kUHD)) {
            if (checkSupportedVideoQuality(parameters,3840,2160)) {
               supported.add(Integer.toString(CamcorderProfile.QUALITY_4kUHD));
            }
         }
+*/
         if (CamcorderProfile.hasProfile(cameraId, CamcorderProfile.QUALITY_1080P)) {
            if (checkSupportedVideoQuality(parameters,1920,1080)){
               supported.add(Integer.toString(CamcorderProfile.QUALITY_1080P));
